@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="style/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid bar1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 menu-box">
+                    <ul>
+                        <li id="btn-menu">
+                            <a href="#"><i class="fa-solid fa-bars"></i></a>
+                        </li>
+                        <li >
+                            <a href="#"><i class="fa-solid fa-house"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+        </div>
+        </div>
+    </div>
+    <div class="phone-menu">
+        <ul>
+            <!-- <li>
+                <a href="">Cafe</a>
+            </li>
+            <li>
+                <a href="">Cafe</a>
+            </li>
+            <li>
+                <a href="">Cafe</a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="container data">
+        <div class="row">
+            <div class="col-xl-3 left-menu">
+                <div class="box">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-9 slide-container">
+                <div class="slide-box">
+                     <!-- <div class="slide">
+                        <img src="img/1.jpeg" alt="">
+                        <span>1</span>
+                    </div>
+                    -->
+                    <div class="btnSlide btn-Back">
+                        Back
+                    </div>
+                    <div class="btnSlide btn-Next">
+                        Next
+                    </div>
+                    <div class="page-Ination">
+                        <ul>
+                            <!-- <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container item-container">
+        <div class="row">
+             <!-- <div class="col-xl-3 item-box">
+                <div class="img-box">
+                    <img src="img/mt.jpg" alt="">
+                </div>
+                <div class="txt-box">
+                    <h1>Ford Mustang Shelby GT-350R (Triple Yellow)</h1>
+                    <div class="detail">
+                        <h1>AUTOART ID   	72932</h1>
+                        <h2> AVAILABILITY	 Available</h2>
+                        <h2>BRAND	 Ford</h2>
+                    </div>
+                </div>
+             </div>
+             <div class="col-xl-3 item-box">
+                <div class="img-box">
+                    <img src="img/7.jpg" alt="">
+                </div>
+                <div class="txt-box">
+                    <h1>Ford Mustang Shelby GT-350R (Triple Yellow)</h1>
+                    <div class="detail">
+                        <h1>AUTOART ID   	72932</h1>
+                        <h2> AVAILABILITY	 Available</h2>
+                        <h2>BRAND	 Ford</h2>
+                    </div>
+                </div>
+             </div>
+             <div class="col-xl-3 item-box">
+                <div class="img-box">
+                    <img src="img/mt3.jpg" alt="">
+                </div>
+                <div class="txt-box">
+                    <h1>Ford Mustang Shelby GT-350R (Triple Yellow)</h1>
+                    <div class="detail">
+                        <h1>AUTOART ID   	72932</h1>
+                        <h2> AVAILABILITY	 Available</h2>
+                        <h2>BRAND	 Ford</h2>
+                    </div>
+                </div>
+             </div>
+             <div class="col-xl-3 item-box">
+                <div class="img-box">
+                    <img src="img/iphone.webp" alt="">
+                </div>
+                <div class="txt-box">
+                    <h1>Ford Mustang Shelby GT-350R (Triple Yellow)</h1>
+                    <div class="detail">
+                        <h1>AUTOART ID   	72932</h1>
+                        <h2> AVAILABILITY	 Available</h2>
+                        <h2>BRAND	       Ford</h2>
+                    </div>
+                </div>
+             </div> -->
+        </div>
+    </div>
+    <!-- <div class="popup2">
+
+        <div class="frm">
+            <div class="img-popup">
+                <img src="img/mt.jpg" alt="">
+            </div>
+            <div class="img-detail">
+                <ul>
+                    <li>
+                        <img src="img/iphone.webp" alt="">
+                    </li>
+                    <li>
+                        <img src="img/mt.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/mt3.jpg" alt="">
+                    </li>
+                </ul>
+            </div> 
+            <div class="title">
+                <h1>2020 Ford Mustang Shelby GT500: What's It Like to Live With?</h1>
+                <p></p>
+            </div>
+            <div class="btn-close">
+                X
+            </div>
+        </div>
+    </div>  -->
+    <div class="container" style="padding: 20px;">
+        <div class="row">
+            <div class="col-xl-4"> 
+                <select name="" id="txt-city" class="form-control">
+                    <!-- <option value="0">select city</option>
+                    <option value="1">Phnom Penh</option>
+                    <option value="2">Siem Reap</option> -->
+                </select>
+            </div>
+            <div class="col-xl-4"> 
+                <select name="" id="txt-district" class="form-control">
+                    <!-- <option value="0">select city</option>
+                    <option value="1">Phnom Penh</option>
+                    <option value="2">Siem Reap</option> -->
+                </select>
+            </div>
+            <div class="col-xl-4"> 
+                <select name="" id="txt-commnue" class="form-control">
+                    <!-- <option value="0">select city</option>
+                    <option value="1">Phnom Penh</option>
+                    <option value="2">Siem Reap</option> -->
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="fri-box">
+        <ul>
+            <li class="title-box">
+                <a >Frind List chat</a>
+            </li>
+            <!-- <li>
+                <a>
+                    <img src="img/fb4.jpg" alt="">
+                     <span>Clothes</span> 
+                </a>
+            </li>
+            <li>
+                <a >
+                    <img src="img/fb5.jpg" alt=""> 
+                    <span>Clothes</span> 
+                    
+                </a>
+            </li>
+            <li>
+                <a >
+                    <img src="img/fb6.jpg" alt="">
+                    <span>Clothes</span>
+                 </a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="chat-container">
+        <!-- <div class="chat-box">
+            <div class="chat-title-box">
+                <img src="img/Watch.jpeg" alt="">
+                <span>Watch</span>
+                <div class="btn-close">
+                    X
+                </div>
+            </div>
+            <i class="fa-solid fa-camera"></i>
+            <i class="fa-solid fa-plus" ></i>
+            <i class="fa-solid fa-microphone"></i>
+            <input type="text" name="" id="txt-messsage" placeholder="text a message">
+            
+       </div>
+       
+       <div class="chat-box">
+            <div class="chat-title-box">
+                <img src="img/Watch.jpeg" alt="">
+                <span>Watch</span>
+                <div class="btn-close">
+                    X
+                </div>
+            </div>
+            <i class="fa-solid fa-camera"></i>
+            <i class="fa-solid fa-plus" ></i>
+            <i class="fa-solid fa-microphone"></i>
+            <input type="text" name="" id="txt-messsage" placeholder="text a message">
+            
+        </div> -->
+        <!-- <button id="btn-Send">Send</button> -->
+   </div>
+</body>
+<script>
+    const items = [
+        {"name":"Clothes",
+        "img":"img/1.jpeg",
+        "img2":"img/T-shirt4.webp",
+        "img3":"img/fb.jpg",
+        "H":"Men's Clothes | Shop for Men's Fashion ",
+        "detail":[
+            {"title":"T-shirt fashion"},
+            {"title":"Polo Shrt"},
+            {"title":"Color White"},
+        ],
+        "sub-menu":[
+                {"name2":"Zando"},
+                {"name2":"Ten11"},
+                {"name2":"RouTine"},
+            ],
+        },
+        {"name":"Cafe",
+        "img":"img/1.jpeg",
+        "img2":"img/9.jpg",
+        "img3":"img/fb2.jpg",
+        "H":"Amazon Green Tea Frapes",
+        "detail":[
+            {"title":"Espresso"},
+            {"title":"Steamed Milk"},
+            {"title":"Foamed Milk"},
+        ],
+        "sub-menu":[
+                {"name2":"Amazon"},
+                {"name2":"Brown"},
+                {"name2":"StarBuck"},
+            ]
+        },
+        {"name":"Computer",
+        "img":"img/3.jpeg",
+        "img2":"img/Mac.jpeg",
+        "img3":"img/fb3.jpg",
+        "H":"Apple MacBook Pro 15-inch (M1, 2020) ",
+
+        "detail":[
+          
+            {"title":"Apple MacBook Pro 14-inch (M2 Max)"},
+            {"title":"MacBook Pro (14-inch, 2021) "},
+            {"title":"Apple MacBook Pro (M1 Pro) "},
+        ],
+        "sub-menu":[
+                {"name2":"Asus"},
+                {"name2":"MacBook"},
+                {"name2":"Dell"},
+            ],
+        },
+        {"name":"Iphone",
+        "img":"img/4.jpeg",
+        "img2":"img/iphone.webp",
+        "img3":"img/fb4.jpg",
+        "H":"iPhone 14 Pro Max 512Go Violet Foncé - APPLE",
+        "detail":[
+           
+            {"title":"AUTOART ID   	72932"},
+            {"title":"AVAILABILITY	 Available"},
+            {"title":"BRAND	 Ford"},
+        ],
+        "sub-menu":[
+                {"name2":"App Store"},
+                {"name2":"Safari"},
+                {"name2":"Airpod"},
+                
+            ],
+        },
+        {"name":"Car-Model",
+        "img":"img/5.jpeg",
+        "img2":"img/Maclaren.jpg",
+        "img3":"img/fb5.jpg",
+        "H":"McLaren upgrades its P1 supercar for the race track",
+        "detail":[
+          
+            {"title":"McLaren P1 GTR, la versión exclusiva para pist"},
+            {"title":"McLaren P1 GTR"},
+            {"title":"New McLaren 750S Coupe "},
+        ],
+        "sub-menu":[
+                {"name2":"Mustang gt500"},
+                {"name2":"BMW i8"},
+                {"name2":"Mclaren"},
+            ]
+        },
+        {"name":"Motor",
+        "img":"img/6.jpeg",
+        "img2":"img/scoppy.jpg",
+        "img3":"img/fb6.jpg",
+        "H":"Honda Scoopy smart key 2023 ថ្មី Price $2650.00  ",
+        "detail":[
+            {"title":"Honda Scoopy black"},
+            {"title":" Honda Scoopy  "},
+            {"title":"Honda Scoopy smart key 2023"},
+        ],
+        "sub-menu":[
+                {"name2":"Scoopy"},
+                {"name2":"ADV"},
+                {"name2":"Click"},
+            ]
+        },
+        {"name":"Speaker",
+        "img":"img/slide.jpg",
+        "img2":"img/jpl.webp",
+        "img3":"img/fb7.jpg",
+        "H":"មកវិញហើយ JBL Partybox One the NANO Sound ",
+        "detail":[
+            {"title":"Speakers & Portable Speakers Audio & Smart"},
+            {"title":"JBL Boombox 3 Bluetooth Speaker"},
+            {"title":"JBL Boombox 2 Bluetooth Speaker"},
+        ],
+        "sub-menu":[
+                {"name2":"App Store"},
+                {"name2":"Safari"},
+                {"name2":"Airpod"},
+            ]
+        },
+        {"name":"Watch",
+        "img":"img/motor.slide",
+        "img2":"img/Watch.jpeg",
+        "img3":"img/fb8.jpg",
+        "H":"Apple Watch Series 8 GPS + Cellular, 45mm",
+        "detail":[
+            {"title":"Apple Watch Series 3 (GPS)"},
+            {"title":"Apple Watch Series 6"},
+            {"title":"Apple Watch Series 5"},
+        ],
+        "sub-menu":[
+                {"name2":"App Store"},
+                {"name2":"Safari"},
+                {"name2":"Airpod"},
+            ]
+        }
+    ]
+    const cityList= [
+        {"name":"Phnom Penh","district":[
+            {"name2":"Doun Penh","code":"1201","commnue":[
+                {"name3":"Doun Penh1"},
+                {"name3":"Doun Penh2"},
+                {"name3":"Doun Penh3"}
+            ]},
+            {"name2":"Toul Kork","code":"1201","commnue":[
+                {"name3":"Toul Kork1"},
+                {"name3":"Toul Kork2"},
+                {"name3":"Toul Kork3"}
+            ]},
+            {"name2":"Por seanchey","code":"1201","commnue":[
+                {"name3":"Por seanchey1"},
+                {"name3":"Por seanchey2"},
+                {"name3":"Por seanchey3"}
+            ]}
+        ]
+     },
+        {"name":"Siem Reap","district":[
+            {"name2":"AngKor Thom","code":"1201","commnue":[
+                {"name3":"temple bayern"},
+                {"name3":"Pub Street"},
+                {"name3":"Phnom Koulen"},
+            ]},
+            {"name2":"AngKor Touch","code":"1201","commnue":[
+                {"name3":"AngKor Temple1"},
+                {"name3":"AngKor Temple2"},
+                {"name3":"AngKor Temple3"},
+
+            ]},
+            {"name2":"Dom daek","code":"1201","commnue":[
+                {"name3":"Dom daek1"},
+                {"name3":"Dom daek2"},
+                {"name3":"Dom daek3"},
+            ]}
+        ]
+    },
+        {"name":"Kompot","district":[
+            {"name2":"Bokor","code":"1201","commnue":[
+                {"name3":"Bokor Mountain "},
+                {"name3":"7 floor waterfall"},
+                {"name3":"Phnom Sompov 5 "},
+
+            ]},
+            {"name2":"Ta da","code":"1201","commnue":[
+                {"name3":"ta da1"},
+                {"name3":"ta da2"},
+                {"name3":"ta da3"},
+            ]},
+            {"name2":"Terk chou","code":"1201","commnue":[
+                {"name3":"Kp1"},
+                {"name3":"Kp2"},
+            ]}
+        ]
+     },
+    ]
+    $(document).ready(function(){
+        var optFriBox =0; // pel page refresh optfribox = 0;
+        getFriBox()
+        function getFriBox(){
+            let txt ="";
+            items.forEach((e,i)=>{ // e= element, i=index
+                // console.log(`${i}`)
+                txt += `
+                    <li id='li${i}'>
+                        <a>
+                            <img src="${e['img3']}" alt="">
+                            <span>${e['name']}</span> 
+                        </a>
+                    </li>
+                `
+            })
+            $(".fri-box").find("ul").append(txt)
+        }
+        $(".fri-box").on("click","li.title-box",function(){
+            // $(this).parents(".fri-box").css({"height":"50px"," overflow-y":"hidden"})
+            if(optFriBox == 0){
+                $(this).parents(".fri-box").css({"height":"50px"," overflow-y":"hidden"})
+                optFriBox =1;
+            }else{
+                $(this).parents(".fri-box").css({"height":"450px"," overflow-y":"scroll"})
+                optFriBox=0;
+            }
+          
+        })
+        $(".fri-box").on("click","ul li",function(){
+            var eThis = $(this)
+            // var index = $(this).index();
+            // var imgChat = items[index]['img3']
+            // console.log(items[index]['img3'])
+            // var ChatName = items[index]['name']
+            var imgChat = eThis.find("img").attr('src');
+            var ChatName = eThis.find('span').text();
+        //     var parent = eThis.parent('.chat-box');
+        //     var txtMesssage = parent.find('#txt-messsage');
+        //    console.log(txtMesssage);
+            if($(this).index() ==0){
+                return;
+            }
+                                                        // li is id
+            var chatBox = `   <div class="chat-box" id="li${eThis.index()}">
+                                <div class="chat-title-box">
+                                    <img src="${imgChat}" alt="">
+                                    <span>${ChatName}</span>
+                                    <div class="btn-close">
+                                        X
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-camera"></i>
+                                <i class="fa-solid fa-plus" ></i>
+                                <i class="fa-solid fa-microphone"></i>
+                                <input type="text" name="" id="txt-messsage" placeholder="text a message">
+                                <button id="btn-Send">Send</button>
+                        </div>
+                    
+                    `
+            if( $(".chat-container").find(`#li${eThis.index()}`).length == 0){
+                $(".chat-container").append(chatBox)
+            }
+            // console.log( $(this).index())
+        })
+        // get message in chat-box
+        $(".chat-container").on("click",".chat-box #btn-Send",function(){
+                var parent = $(this).parent('.chat-box');
+                 var txtMesssage = parent.find('#txt-messsage');
+                 console.log(txtMesssage.val());
+                 $(".chat-box").append(txtMesssage.val())
+                 txtMesssage.val("");
+        })
+        $(".chat-container").on("click",".chat-box .btn-close",function(){
+            var eThis = $(this);
+            eThis.parents(".chat-box").remove();
+        })
+        getcityList()
+        function getcityList(){
+            let txt=`<option value="-1">select city</option>`;
+            cityList.forEach((e,i)=>{ // e= element, i=index
+                txt+= `
+                     <option value="${i}">${e['name']}</option>
+                `;
+            })
+            $("#txt-city").html(txt)
+        }
+        // jab price of txt-city
+        $("#txt-city").change(function(){
+            let index = $(this).val();
+            const District = cityList[index]['district'];
+            let txt =`<option value="-1">select city</option>`;
+            District.forEach((e,i)=>{
+                txt += `
+                     <option value="${i}">${e['name2']}</option>
+                `;
+            })
+            $("#txt-district").html(txt);
+        }) 
+        // jab price of txt-district
+        $("#txt-district").change(function(){ // change function
+            var eThis = $(this);
+            let index = eThis.val();
+            const District = cityList[index]['district']; // first jab index bos district
+            var Commmune = District[index]['commnue']; // then jab index bos commnue
+            // console.log(Commmune)
+            // console.log(District)
+            var txt =`<option value="-1">select city</option>`;
+            Commmune.forEach((e,i)=>{
+                txt += `
+                         <option value="${i}">${e['name3']}</option>
+                    `;
+            })
+            $("#txt-commnue").html(txt);
+        })
+        // show img detail
+        $(".item-container").on("click",".item-box",function(){ 
+            var eThis = $(this);
+            var index = eThis.index() // index of item-box
+            var img2 = items[index]['img2'];
+            var detaill = items[index]['H']
+            var Imgdetail = items[index]['detail']
+            // console.log(items[index]['detail'])
+            var txt ="";
+            Imgdetail.forEach((e,i)=>{
+                console.log(`${i}`)
+                txt += `
+                    <div class="title" >
+                        <p>${e['title']}</p>
+                    </div>
+                `
+            })
+            console.log(txt)
+            var frm = ` <div class="popup2">
+                            <div class="frm">
+                                <div class="img-popup">
+                                    <img src="${img2}" alt="">
+                                </div>
+                                <div class="title">
+                                    <h1>${detaill}</h1>
+                                    ${txt}
+                                </div>
+                                <div class="btn-close">
+                                    X
+                                </div>
+                            </div>
+                        </div>
+                    `
+                        
+            // alert(frm)
+            $("body").append(frm);
+        })
+        // close detail 
+        $("body").on("click",".frm .btn-close",function(){
+            $(".popup2").remove();
+        })
+        getImglist()
+        function getImglist(){
+            var txt ="";
+            for(i in items){
+                var detail = items[i]['detail'];
+                var txt2 ="";
+                for(x in detail){
+                    txt2 += `
+                        <div class="detail">
+                            <h1>${detail[x]['title']}</h1>
+                        </div>
+                    `
+                }
+                txt+= `
+                    <div class="col-xl-3 item-box">
+                        <div class="img-box">
+                            <img src="${items[i]['img2']}" alt="">
+                        </div>
+                        <div class="txt-box">
+                            <h1>${items[i]['H']}</h1>
+                            ${txt2}
+                         </div>
+                    </div>
+
+                `
+            }
+            $(".item-container").find('.row').append(txt)
+        }
+        getSlide();
+        var myAutoSlide = setInterval(
+             function () {
+                $('.btn-Next').click()
+            },
+            3000
+         );
+         // pel dak mouse on slide-box oy clearslide
+         $(".slide-box").mouseover(function(){
+            clearInterval(myAutoSlide);
+         })
+         // pel dok mouse jenh oy setInterval vinh
+         $(".slide-box").mouseleave(function(){
+            myAutoSlide = setInterval(
+                function () {
+                    $('.btn-Next').click()
+                },
+                3000
+            );
+         })
+         $(".page-Ination").on("click","ul li",function(){
+            slide.eq(slideInd).hide();
+            $(".page-Ination").find("li").eq(slideInd).removeClass("active");
+            slideInd = $(this).index(); // this is ul li
+            slide.eq(slideInd).show();
+            $(".page-Ination").find("li").eq(slideInd).addClass("active");
+         })
+        // pel page refresh oy class slide kert that's why I wrote on the top
+        var slideInd = 0 // index of slide
+        var slide = $(".slide");
+        var Numslide = slide.length ; // amount of slide
+        slide.hide();
+        slide.eq(slideInd).show(); // eq is like index //slide=0
+        $(".btn-Next").click(function(){
+            slide.eq(slideInd).hide(); // hide slide index ti 0 pel click next tv slide up index 1 
+            $(".page-Ination").find("li").eq(slideInd).removeClass("active");
+            slideInd++; // slide up 1->2->3->4
+            // slideInd >= Numslide ->= if index of slide bigger or smer amount of slide 
+            if(slideInd >= Numslide){ // condition beb nis means we want to know slides os nv bar os slide trov oy = slideInd 0 vinh means tv slide t'bong vinh
+                slideInd =0;
+            }
+            slide.eq(slideInd).show(); // slide show ti 1->2->3->4
+            $(".page-Ination").find("li").eq(slideInd).addClass("active");
+        })
+        $(".btn-Back").click(function(){
+            slide.eq(slideInd).hide(); //  first hide ti 0 then hide ti 5->4->3->2->1->0 , hide ti 5->4->3->2->1->0 
+            $(".page-Ination").find("li").eq(slideInd).removeClass("active");
+            slideInd --; //0 - 1= -1 , 5-1=4, 4-1=3, 3-1=2, 2-1=1, 1-1=0 , 0-1= -1 , 5-1=4, 4-1=3, 3-1=2, 2-1=1, 1-1=0
+            if(slideInd < 0 ){ 
+                slideInd = Numslide -1; // 6-1 = 5
+            }
+            slide.eq(slideInd).show(); //5 ->4->3->2->1->0 ,   //5 ->4->3->2->1->0   
+            $(".page-Ination").find("li").eq(slideInd).addClass("active");
+        })
+         var popup = `<div class="popup"></div>`;
+        getMenu();
+        getPhoneMenu();
+        getLeftMenu();
+        function getSlide(){
+            var txt ="";
+            var txtLi = "";
+            var x=0;
+            items.forEach(e =>{
+                x++ ;
+                txt+=`
+                    <div class="slide">
+                        <img src="${e['img']}" alt="">
+                        <span>${x}/${items.length}</span>
+                        <h1>${e['name']}</h1>
+                    </div>
+                `
+                txtLi +=`
+                    <li>${x}</li>
+                `;
+            })
+            $(".slide-box").append(txt);
+            $(".page-Ination").find("ul").append(txtLi);
+            // $(".page-Ination").append(`<ul>${txtLi}</ul>`);
+            $(".page-Ination").find("li").eq(0).addClass("active");
+        }
+        function getMenu(){
+            var txt = "";
+           for(i in items){
+                var subMenu = items[i]['sub-menu'];
+                var txt2 ="";
+                for(x in subMenu){
+                    txt2 += `   
+                         <li>
+                            <a href="">${subMenu[x]['name2']}</a>
+                        </li>
+                    `;
+                    // console.log(txt2);
+                }
+                txt+= `
+                        <li>
+                            <a href="">${items[i]['name']}</a>
+                            <ul class="sub-menu">
+                                ${txt2}
+                            </ul>
+                        </li>
+                    `;
+           }
+            // $(".menu-box").append("<ul>"+txt+"</ul>");
+            $(".menu-box").find('ul').append(txt);
+            // $(".menu-box").html("<ul>"+txt+"</ul>");
+        }
+        //get phoneMenu
+        function getPhoneMenu(){
+            var txt="";
+            items.forEach(e=>{
+                txt +=`
+                        <li>
+                            <a href="#">
+                                ${e['name']}
+                            </a>
+                        </li>
+                `;
+            })
+            $(".phone-menu").find('ul').html(txt);
+        }
+        function getLeftMenu(){
+            var txt = "";
+            for( i in items){
+                txt+= `
+                        <li>
+                            <a href="#" class="m1">${items[i]['name']} <i class="fa-solid fa-plus"></i> </a>
+                        </li>
+                `;
+            }
+            $(".left-menu").find(".box ul").append(txt);
+        }
+        // getleftSubMenu
+        $(".left-menu").on("click",'.m1',function(){
+            var eThis = $(this);
+            var parent = eThis.parent(); // parent is li
+            var index = parent.index(); // position of li
+            var leftSubMenu = items[index]['sub-menu']; 
+            // var txt="";
+            // for(x in leftSubMenu){
+            //     txt +=`
+            //             <li>
+            //                 <a href="#">${leftSubMenu[x]['name2']}</a>
+            //             </li>
+            //     `;
+            // }
+            var numleftsubMenu = parent.find(".left-sub-menu").length;
+            if(numleftsubMenu ==0){
+                var txt="";
+                for(x in leftSubMenu){
+                    txt +=`
+                            <li>
+                                <a href="#">${leftSubMenu[x]['name2']}</a>
+                            </li>
+                    `;
+                }
+                eThis.find('i').removeClass("fa-plus");
+                eThis.find('i').addClass("fa-minus");
+                parent.append(`
+                    <div class="left-sub-menu">
+                        <ul>
+                            ${txt}
+                        </ul>
+                    </div>
+                `)
+             }else{
+                //  parent.find(".left-sub-menu").remove();
+                if(eThis.find(".fa-minus").length > 0){
+                    parent.find(".left-sub-menu").slideUp();
+                    eThis.find('i').addClass("fa-plus");
+                     eThis.find('i').removeClass("fa-minus");
+                }else{
+                    parent.find(".left-sub-menu").slideDown();
+                    eThis.find('i').removeClass("fa-plus");
+                    eThis.find('i').addClass("fa-minus");
+                }
+               
+            }
+            // push data to li and li is parent
+        })
+        // show phoneMenu
+        $("#btn-menu").click(function(){
+            $(".phone-menu").css({"left":"0"});
+              $("body").append(popup);
+        })
+        // close phoneMenu
+        // because popup doesn't have in body so we have to take body jea Kol
+        $("body").on("click",'.popup',function(){
+            $(this).remove();
+            $(".phone-menu").css({"left":"-250px"});
+        })
+        // if class popup has in body we write like bellow
+        // $(".popup").click(function(){
+        //     alert("yes")
+        // })
+    })
+</script>
+</html>
